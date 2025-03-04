@@ -1,0 +1,57 @@
+{
+  "suites": [
+    {
+      "id": 3,
+      "title": "Category Loader Tests",
+      "description": "Tests for category loader",
+      "preconditions": null,
+      "suites": [],
+      "cases": [
+        {
+          "id": 5,
+          "title": "UI split in 3 tabs within category loader for separation of concerns",
+          "description": "We can see three tabs where each tab allows us to have separate table for separation of concerns for drawer & summary records.",
+          "preconditions": null,
+          "postconditions": null,
+          "priority": "high",
+          "severity": "major",
+          "type": "acceptance",
+          "behavior": "undefined",
+          "automation": "is-not-automated",
+          "status": "actual",
+          "is_flaky": "no",
+          "layer": "unknown",
+          "milestone": null,
+          "custom_fields": [],
+          "steps_type": "classic",
+          "steps": [],
+          "tags": ["Category Loader"],
+          "params": [],
+          "is_muted": "no"
+        },
+        {
+          "id": 6,
+          "title": "Frontend records from drawer to table of pseudo",
+          "description": "We can add manual entries for pseudo from drawer to the table of category loader.",
+          "preconditions": "The user have selected the tab of Pseudo from the 3 tabs above the search facility",
+          "postconditions": "Records are managed and displayed in the table as user adds them from drawer.",
+          "priority": "high",
+          "severity": "major",
+          "type": "functional",
+          "behavior": "undefined",
+          "automation": "is-not-automated",
+          "status": "actual",
+          "is_flaky": "no",
+          "layer": "unknown",
+          "milestone": null,
+          "custom_fields": [],
+          "steps_type": "classic",
+          "steps": [],
+          "tags": ["Pseudo table records"],
+          "params": [],
+          "is_muted": "no"
+        }
+      ]
+    }
+  ]
+}
